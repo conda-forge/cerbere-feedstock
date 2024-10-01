@@ -1,18 +1,15 @@
-About cerbere
-=============
-
-Home: https://gitlab.ifremer.fr/cerbere/cerbere
-
-Package license: GPL-3.0-or-later
+About cerbere-feedstock
+=======================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cerbere-feedstock/blob/main/LICENSE.txt)
 
-Summary: cerbere provides a unified python API to manipulate any type of spatio-temporal observations
+Home: https://gitlab.ifremer.fr/cerbere/cerbere/
 
-cerbere provides a unified python API to manipulate any type of spatio-temporal observations,
-which can be read from many existing storage formats using the same set of functions.
-It also provides classes for specific types of observation features.
+Package license: GPL-3.0-or-later
 
+Summary: A python API to manipulate spatial and temporal observations, compatible with many existing formats, normalizing and typing the representation of these observations, following Climate and Forecast (CF) convention and data model.
+
+Documentation: https://cerbere.readthedocs.io/en/latest/
 
 Current build status
 ====================
@@ -100,7 +97,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -148,5 +145,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@jfpiolle](https://github.com/jfpiolle/)
 * [@marie59](https://github.com/marie59/)
 
