@@ -39,12 +39,13 @@ test:
     - pip
 
 about:
-  summary: A python API to manipulate spatial and temporal observations, compatible with many existing formats, normalizing and typing the representation of these observations.
-  license: GPL-3.0
+  summary: A python API to manipulate spatial and temporal observations, compatible with many existing formats, normalizing and typing the representation of these observations, following Climate and Forecast (CF) convention and data model.
+  license: GPL-3.0-or-later
   license_file: LICENSE.txt
+  home: https://gitlab.ifremer.fr/cerbere/cerbere/
+  doc_url: https://cerbere.readthedocs.io/en/latest/
 
 extra:
   recipe-maintainers:
     - jfpiolle
     - marie59
-
