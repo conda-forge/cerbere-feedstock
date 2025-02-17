@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.ifremer.fr/cerbere/cerbere/-/archive/{{ version }}/cerbere-{{ version }}.tar.gz
-  sha256: beccb6e644fb8c0c3401167c003ab743be8210342f0d
+  sha256: 24b330d271f2a1126cbfff70072d42978c80c2f543f86ce0ac54679c0048705d
 
 build:
   noarch: python
