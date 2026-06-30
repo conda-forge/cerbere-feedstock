@@ -1,19 +1,19 @@
-{% set python_min = '3.10.0' %}
+{% set python_min = "3.10.0" %}
 {% set name = "cerbere" %}
-{% set version = "3.1.2" %}
+{% set version = "3.1.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://gitlab.ifremer.fr/cerbere/cerbere/-/archive/{{ version }}/cerbere-{{ version }}.tar.gz
-  sha256: 24b330d271f2a1126cbfff70072d42978c80c2f543f86ce0ac54679c0048705d
+  url: https://gitlab.ifremer.fr/cerbere/cerbere/-/archive/{{ version }}/cerbere-{{ version }}.zip
+  sha256: e2ed5fb403d1f553301c5d09cf54540f03f12cb314710d3606c5ec4b24ff3417
 
 build:
   noarch: python
   script: POETRY_DYNAMIC_VERSIONING_BYPASS={{ version }} {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
